@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <!-- 
+    Each <plugin> element describes one plugin in the repository. Required.
+    id - used by JetBrains IDEs to uniquely identify a plugin. Required. Must match <id> in plugin.xml
+    url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
+    version - version of this plugin. Required. Must match <version> in plugin.xml
+  -->
+  <plugin id="com.behavox.intellij.beh-intellij-plugin" url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/beh-intellij-plugin-0.0.1.jar" version="0.0.1">
+    <!--
+      The <idea-version> element must match the same element in plugin.xml. Required.
+    -->
+    <idea-version since-build="181.3"  />
+  </plugin>
+</plugins>
