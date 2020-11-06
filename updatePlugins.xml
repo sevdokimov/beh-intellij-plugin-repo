@@ -38,7 +38,7 @@ Helps developing Behavox applications
     <!--
       The <idea-version> element must match the same element in plugin.xml. Required.
     -->
-    <idea-version since-build="181.3" until-build="*" />
+    <idea-version since-build="181.3" until-build="220.*" />
 
 <name>Behavox</name>
 
