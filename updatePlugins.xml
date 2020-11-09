@@ -48,4 +48,20 @@ Helps developing Behavox applications
 
   </plugin>
 
+
+  <plugin id="com.behavox.intellij.beh-intellij-plugin" url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/beh-intellij-plugin-0.0.4.jar" version="0.0.4">
+    <!--
+      The <idea-version> element must match the same element in plugin.xml. Required.
+    -->
+    <idea-version since-build="181.3" until-build="220.*" />
+
+<name>Behavox</name>
+
+<description>
+Helps developing Behavox applications
+</description>
+
+  </plugin>
+
+
 </plugins>
