@@ -62,7 +62,7 @@
 
     <plugin id="com.behavox.intellij.beh-intellij-plugin"
             url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/beh-intellij-plugin-1.0.0.jar"
-            version="0.0.4">
+            version="1.0.0">
         <!--
           The <idea-version> element must match the same element in plugin.xml. Required.
         -->
