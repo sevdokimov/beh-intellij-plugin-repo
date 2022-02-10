@@ -183,5 +183,20 @@
         </description>
     </plugin>
 
+    <plugin id="com.ess.terminal-pro"
+            url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/terminal-pro-0.0.1.jar"
+            version="0.0.1">
+        <!--
+          The <idea-version> element must match the same element in plugin.xml. Required.
+        -->
+        <idea-version since-build="181.3" until-build="260.*"/>
+
+        <name>TerminalPro</name>
+
+        <description>
+            TerminalPro
+        </description>
+    </plugin>
+
 
 </plugins>
