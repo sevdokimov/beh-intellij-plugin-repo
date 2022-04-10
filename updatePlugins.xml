@@ -214,11 +214,23 @@
     </plugin>
 
     <plugin id="com.ess.terminal-pro"
-            url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/terminal-pro-plugin-1.0.0.jar"
+            url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/terminal-pro-plugin-1.0.0.zip"
             version="1.0.0">
         <!--
           The <idea-version> element must match the same element in plugin.xml. Required.
         -->
+        <idea-version since-build="203.1" until-build="221.*"/>
+
+        <name>TerminalPro</name>
+
+        <description>
+            TerminalPro
+        </description>
+    </plugin>
+
+    <plugin id="com.ess.terminal-pro"
+            url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/terminal-pro-plugin-1.0.102.zip"
+            version="1.0.102">
         <idea-version since-build="203.1" until-build="221.*"/>
 
         <name>TerminalPro</name>
