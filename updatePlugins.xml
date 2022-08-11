@@ -335,4 +335,50 @@
     ]]></description>
     </plugin>
 
+    <plugin id="com.ess.terminal-pro"
+            url="https://raw.githubusercontent.com/sevdokimov/beh-intellij-plugin-repo/master/builds/terminal-pro-plugin-1.0.106.zip"
+            version="1.0.106">
+        <idea-version since-build="203.1" until-build="222.*"/>
+
+        <name>Friendly Terminal</name>
+
+        <description><![CDATA[
+    <html>
+    <body>
+    A GUI shell for <b>Linux command line</b>.<br>
+    Makes working in the bash command line easier with IntelliJ UI features like
+    completion, highlighting, etc...<br>
+    Also, the plugin provides <b>File Manager</b> to navigate the file system and to perform file operations.
+    It's much more convenient than "ls", "cd", "cp" commands.<br>
+
+    <br>
+    All features are available even if you're working on a remote machine <b>through ssh</b>!<br>
+    <br>
+
+    <h3>Features:</h3>
+    <ul>
+      <li>
+        Command line completion <a href="https://github.com/sevdokimov/FriendlyTerminal/wiki/Screenshots#command-completion">demo</a>
+      </li>
+      <li>
+        Command history <a href="https://github.com/sevdokimov/FriendlyTerminal/wiki/Screenshots#command-history-ctrlr">demo</a>
+      </li>
+      <li>
+        Completion command tail from the history (Ctrl+Shift+Space) <a href="https://github.com/sevdokimov/FriendlyTerminal/wiki/Screenshots#completion-command-tail-from-the-history-ctrlshiftspace">demo</a>
+      </li>
+      <li>
+         File Manager (Ctrl+O) <a href="https://github.com/sevdokimov/FriendlyTerminal/wiki/Screenshots#file-manager-ctrlo">demo</a>
+      </li>
+    </ul>
+    <br>
+    Note: The plugin doesn't work in Windows OS.
+    <br>
+    <br>
+    Support: <a href="https://github.com/sevdokimov/FriendlyTerminal/issues">Issue Tracker</a>,
+    <a href="https://github.com/sevdokimov/FriendlyTerminal/discussions">Discussions</a>
+    </body>
+    </html>
+    ]]></description>
+    </plugin>
+
 </plugins>
